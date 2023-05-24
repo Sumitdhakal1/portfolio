@@ -1,0 +1,15 @@
+@import "variables.scss";
+
+.resume_main{
+    background-color: $color-main;
+    margin-left: 18rem;
+    .resume_warpper{
+        display: flex;
+       justify-content: center;
+        color: $color-primary-text;
+        
+        h1{
+            font-size: 4rem;
+        }
+    }
+}

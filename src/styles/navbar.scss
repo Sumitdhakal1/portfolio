@@ -1,0 +1,75 @@
+@import "variables.scss";
+
+
+.main_warpper{
+    .navbar{
+        padding-top: 3rem;
+        width: 18rem;
+        background: #212428;
+        height: 100vh;
+        position: fixed;
+        .navbar_warpper{
+            .image{
+              
+                img{
+                  border: 1px solid gray;
+                 border-radius: 8rem;
+                }
+            }
+            ul{
+                padding-top: 2rem;
+                padding-left: 1rem;
+                display: flex;
+                flex-direction: column;
+
+                .link{
+                    display: flex;
+                    gap: 1rem;
+                    margin-bottom: 2rem;
+                    text-transform: uppercase;
+                    color: $color-primary-text;
+                    
+                    &:hover{
+                        color: red;
+                    }
+                }
+            }
+            .find_me{
+                 border-top: 1px solid $color-primary-text;
+                
+                 color: $color-primary-text;
+                p{
+                    text-transform: uppercase;
+                  margin-top: 1rem;
+                }
+                .find_me_icons{
+                    display: flex;
+                    margin-top: 1rem;
+                    gap: 1.5rem;
+                .icon{
+                background: linear-gradient(to right bottom, #212428, #16181c);
+                   padding: 0.75rem 0.75rem;
+                    font-size: 19px;
+                    .facebook_icon{
+                        color: #385898;
+                    }
+                    .twitter_icon{
+                        color: #1D9BF0;
+                    }
+                    .linkedin_icon{
+                        color: #0077b5;
+                    }
+
+                }
+            }
+            }
+        }
+    }
+}
+
+
+@media(max-width:1200px){
+ .navbar{
+    display: none;
+ }
+}
