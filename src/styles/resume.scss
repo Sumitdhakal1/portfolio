@@ -4,12 +4,143 @@
     background-color: $color-main;
     margin-left: 18rem;
     .resume_warpper{
-        display: flex;
-       justify-content: center;
-        color: $color-primary-text;
+
         
         h1{
-            font-size: 4rem;
+            display: flex;
+            justify-content: center;
+             color: $color-primary-text;
+            font-size: 3rem;
         }
+    }
+    .resume_area{
+        margin-top: 2rem;
+        width:125%;
+        margin-left: -6.3rem;
+       
+
+        ul{
+           
+            display: flex;
+            justify-content: space-evenly;
+            background: linear-gradient(to right bottom, #212428, #16181c);
+            box-shadow: -13px -5px 14px -15px rgba(61, 61, 61, 0.75);
+              border-radius: 1rem;
+            .li{
+                padding-block: 2rem ;
+              color: $color-primary-text;
+              font-size: 1.6rem;
+              cursor: pointer;
+            }
+        }
+    }
+
+    .education{
+       margin-top: 2rem;
+       display: flex;
+       margin-left: -2rem;
+        .education_warpper{
+            width: 22rem;
+           margin-left: 3rem;
+             margin-bottom: 5rem;
+             height: 20rem;
+             background: linear-gradient(to right bottom, #212428, #16181c);
+             box-shadow: -13px -5px 14px -15px rgba(61, 61, 61, 0.75);
+         .education_details{
+           margin-left: 2rem;
+            h1{
+                padding-block: 1rem;
+                color: $color-primary-text;
+                font-size: 1.5rem;
+            }
+            p{margin-top: 2rem;
+                color: $color-primary-text;
+            }
+            p1{
+                padding-top: 2rem;
+                color: $color-primary-text;
+                
+            }
+        }
+        }
+    }
+    .skills{
+        .skill_warpper{
+            .skill_details{
+                h1{
+                    color: $color-primary-text;
+                }
+                .progress_chart{
+                    padding-block: 2rem;
+                   text-transform: uppercase;
+                   .text{
+                    margin-top: 1rem;
+                    span{                     
+                        color: $color-primary-text;
+                       
+                   }
+                }
+                    .progress{ 
+                        background: #212428;    
+                        border-radius: 1rem;
+                        box-shadow: inset 8px 8px 16px #00000075, inset -8px -8px 16px #383e4575;
+                        height: 1rem;
+                        margin-top: 1rem;
+                        .progress_line1{
+                            height: 0.9rem;
+                            border-radius: 1rem;
+                            background: linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb); 
+                             span1{
+                                color: $color_secodary_text;
+                                font-weight: 500;
+                                height: 1rem;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                
+                             }
+                        }
+                        .progress_line2{
+                            height: 0.9rem;
+                            width: 40%;
+                            border-radius: 1rem;
+                            background: linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb); 
+                             span1{
+                                color: $color_secodary_text;
+                                font-weight: 500;
+                                height: 1rem;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                
+                             }
+                        }
+                        .progress_line3{
+                            height: 0.9rem;
+                            width: 10%;
+                            border-radius: 1rem;
+                            background: linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb); 
+                             span1{
+                                color: $color_secodary_text;
+                                font-weight: 500;
+                                height: 1rem;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                
+                             }
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+}
+   
+
+@media(max-width:1200px){
+    .resume_main{
+       margin-left: 0;
     }
 }
