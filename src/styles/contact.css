@@ -1,0 +1,226 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+  text-transform: capitalize;
+}
+
+img {
+  width: 100%;
+  display: block;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.container_main {
+  width: 90%;
+  margin: 0 auto;
+  padding-block: 5rem;
+  background-color: #212428;
+}
+
+.contact_main {
+  background: #212428;
+  margin-left: 18rem;
+}
+.contact_main .contact_heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact_main .contact_heading span {
+  color: red;
+}
+.contact_main .contact_heading h1 {
+  padding-bottom: 2rem;
+  color: #c4cfde;
+  font-size: 3rem;
+}
+.contact_main .contact_details_warpper {
+  display: flex;
+  justify-content: center;
+}
+.contact_main .contact_details_warpper .contact_warpper {
+  display: flex;
+  gap: 2rem;
+}
+.contact_main .contact_details_warpper .contact_warpper .about_contact {
+  background: linear-gradient(to right bottom, #212428, #16181c);
+  flex-basis: 40%;
+  padding: 1rem 3rem;
+  box-shadow: -13px -5px 14px -15px rgba(61, 61, 61, 0.75);
+}
+.contact_main .contact_details_warpper .contact_warpper .about_contact .image {
+  width: 100%;
+  padding-top: 20px;
+}
+.contact_main .contact_details_warpper .contact_warpper .about_contact h1 {
+  padding-block: 1rem;
+  color: #a0a8b3;
+}
+.contact_main .contact_details_warpper .contact_warpper .about_contact span {
+  color: #a0a8b3;
+}
+.contact_main .contact_details_warpper .contact_warpper .about_contact p {
+  max-width: 300px;
+  padding-block: 1rem;
+  color: #a0a8b3;
+}
+.contact_main .contact_details_warpper .contact_warpper .about_contact .find_me {
+  padding-block: 2rem;
+}
+.contact_main .contact_details_warpper .contact_warpper .about_contact .social_links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-bottom: 1rem;
+}
+.contact_main .contact_details_warpper .contact_warpper .about_contact .social_links .icons {
+  padding: 0.5rem 0.5rem;
+  font-size: 2.4rem;
+  background: linear-gradient(to right bottom, #212428, #16181c);
+}
+.contact_main .contact_details_warpper .contact_warpper .about_contact .social_links .icons .facebook {
+  color: #385898;
+}
+.contact_main .contact_details_warpper .contact_warpper .about_contact .social_links .icons .twitter {
+  color: #1D9BF0;
+}
+.contact_main .contact_details_warpper .contact_warpper .about_contact .social_links .icons .linkedin {
+  color: #0077b5;
+}
+.contact_main .contact_details_warpper .contact_warpper .contact_form_warpper .contact_form {
+  background: linear-gradient(to right bottom, #212428, #16181c);
+  flex-basis: 50%;
+  box-shadow: -13px -5px 14px -15px rgba(61, 61, 61, 0.75);
+  padding: 1rem 5rem;
+}
+.contact_main .contact_details_warpper .contact_warpper .contact_form_warpper .contact_form .first {
+  padding-top: 1rem;
+  display: flex;
+  gap: 4.1rem;
+}
+.contact_main .contact_details_warpper .contact_warpper .contact_form_warpper .contact_form .first .name span {
+  color: #a0a8b3;
+}
+.contact_main .contact_details_warpper .contact_warpper .contact_form_warpper .contact_form .first .name input {
+  margin-top: 0.5rem;
+  width: 96%;
+  height: 2rem;
+  margin-right: 2rem;
+  color: #c4cfde;
+  background: #191b1e;
+  box-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
+  outline-color: red;
+  border: none;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+.contact_main .contact_details_warpper .contact_warpper .contact_form_warpper .contact_form .first .number span {
+  color: #a0a8b3;
+}
+.contact_main .contact_details_warpper .contact_warpper .contact_form_warpper .contact_form .first .number input {
+  background: #191b1e;
+  box-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
+  margin-top: 0.5rem;
+  width: 96%;
+  height: 2rem;
+  margin-right: 2rem;
+  color: #c4cfde;
+  outline-color: red;
+  border: none;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+.contact_main .contact_details_warpper .contact_warpper .contact_form_warpper .email {
+  padding-top: 1rem;
+}
+.contact_main .contact_details_warpper .contact_warpper .contact_form_warpper .email span {
+  margin-top: 1rem;
+  text-transform: uppercase;
+  color: #a0a8b3;
+}
+.contact_main .contact_details_warpper .contact_warpper .contact_form_warpper .email input {
+  margin: 0;
+  background: #191b1e;
+  box-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
+  border: none;
+  width: 96%;
+  height: 2rem;
+  color: #c4cfde;
+  outline-color: red;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+.contact_main .contact_details_warpper .contact_warpper .contact_form_warpper .subject {
+  padding-top: 1rem;
+}
+.contact_main .contact_details_warpper .contact_warpper .contact_form_warpper .subject span {
+  margin-top: 1rem;
+  text-transform: uppercase;
+  color: #a0a8b3;
+}
+.contact_main .contact_details_warpper .contact_warpper .contact_form_warpper .subject input {
+  margin-top: 0.5rem;
+  background: #191b1e;
+  box-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
+  border: none;
+  width: 96%;
+  height: 2rem;
+  color: #c4cfde;
+  outline-color: red;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+.contact_main .contact_details_warpper .contact_warpper .contact_form_warpper .message span {
+  color: #c4cfde;
+  text-transform: uppercase;
+}
+.contact_main .contact_details_warpper .contact_warpper .contact_form_warpper .message textarea {
+  background: #191b1e;
+  box-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
+  border: none;
+  color: #c4cfde;
+  outline-color: red;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+.contact_main .contact_details_warpper .contact_warpper .contact_form_warpper .send_button {
+  margin-top: 1rem;
+}
+.contact_main .contact_details_warpper .contact_warpper .contact_form_warpper .send_button button {
+  background: #191b1e;
+  box-shadow: -13px -5px 14px -15px rgba(61, 61, 61, 0.75);
+  border: none;
+  width: 100%;
+  height: 3rem;
+  text-transform: uppercase;
+  color: #a0a8b3;
+}
+
+@media (max-width: 1200px) {
+  .contact_main {
+    margin-left: 0;
+  }
+  .contact_main .contact_details_warpper .contact_warpper {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact_main .contact_details_warpper .contact_warpper .about_contact {
+    width: 50%;
+    margin-bottom: 3rem;
+  }
+}/*# sourceMappingURL=contact.css.map */

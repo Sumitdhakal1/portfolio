@@ -6,6 +6,7 @@ import Features from './pages/features';
 import Portfolio from './pages/portfolio';
 import Resume from './pages/resume';
 import Blog from './pages/blog';
+import Contact from './pages/contact';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Portfolio/>
       <Resume/>
       <Blog/>
+      <Contact/>
      <Routes>
         <Route  path='/Home' element={<Home/>}/>
         </Routes>

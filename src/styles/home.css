@@ -26,9 +26,10 @@ a {
 }
 
 .container_main {
-  width: 75%;
+  width: 90%;
   margin: 0 auto;
   padding-block: 5rem;
+  background-color: #212428;
 }
 
 .home {
